@@ -306,7 +306,33 @@ padding: 0 1.4rem;
     }
 
     
-
+    #featured{
+        padding: 50px 0px;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    
+    
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,20%);
+        grid-auto-rows: minmax(200px,auto);
+        grid-gap: 1em;
+        justify-content: center;
+        margin-top:10px;
+        align-items: center;
+    }
+    .wrapper>div{
+        border:1px solid grey;
+        position: relative;
+        overflow: hidden;
+    }
+    .wrapper> div img{
+        width: 100%;
+        
+    }
+    
 
     .footer{
         background:var(--black);
